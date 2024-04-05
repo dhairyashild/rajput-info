@@ -1,0 +1,151 @@
+#####1 ST M/C #########################################
+
+sudo su
+sudo apt update
+apt git install -y
+
+{(git -v=2.23.3 remember)/(which git )--any command to check git installe or not 
+                                  
+
+git remote add origin {url}                                              {GRAO URL} -----> 
+// (git remote -v)                 >>>to check URL
+
+git config --global user.name "dhairu"                                   {GC --GU.N}
+git config --globel User.email dgmail.com"                               {GC --GU.E} 
+ 
+{(git config --list)--command to check user}yum install 
+                                                                         {MKDIR + CD + GITINIT} 
+
+
+{ ABOVE ALL COMMAND COMMON WHEN U ENTER ANY M/C TO PERFORM GIT TASC} 
+
+
+#####################
+mkdir gitlearning
+cd gitlearning
+git init
+
+cat >gitcode
+DIL E NADA
+
+git add .
+git commit -m "my first code from mumbai"
+
+git log
+git show {commit id 40 no. maadale kahi akde ghe}
+
+git push -u origin master                                                {GP U OM}
+username - dhairyashil desai
+password-
+
+
+
+
+
+
+
+
+################ NEW MACHINE SINGAPORE ###################
+
+{ ABOVE ALL COMMAND COMMON WHEN U ENTER ANY M/C TO PERFORM GIT TASC COPY ALL OF THEM }
+
+mkdir singaporecode
+cd singaporecode
+git init
+#################
+
+
+git pull origin master                                                   {GP OM} 
+
+git log
+git show{8 number from commit id}
+
+
+
+#####################  GIT IGNORE  ########################### 
+Cd mumbaigit
+
+
+Vi .gitignore
+
+*.css
+
+*.java
+
+
+Git add .gitignore
+
+
+Git commit -m "ignore file format"
+
+ 
+Git status
+
+ 
+Touch file.txt files.java files.css
+
+ 
+Git status
+// java , css file dakhavatach nhi
+
+ 
+Git add .
+
+ 
+Git commit-m "git with ignored files"
+
+
+#################  BRANCH, STASH ,    #####################
+sudo su
+
+Cd mumbaigit
+
+git log --oneline
+//total commit kiti asatil te 1 line mde 1 commit ase jevde asatil te davat
+
+git branch
+*master
+//in which brach u  in shows
+
+git branch branch1
+// creates new  branch1
+
+
+git branch
+*master
+branch1
+//in which brach u  in showsa nd new brach1 created
+
+git chechout branch1
+*branch1
+master
+// now u r in branch1
+
+git chechout master
+//now u r in master
+
+git branch -d branch1
+//delete branch1
+
+
+git branch -D branch1
+//delete branch1 forcefully
+
+############### MERGE ##########
+
+ (pulling mechnism --- only new work in branch copied to master because old code is lready there)
+
+
+
+git branch
+*master
+branch1
+
+git merge branch1
+// branch 1 all files copied to master but it also present in branch1
+
+
+############
+
+
+
